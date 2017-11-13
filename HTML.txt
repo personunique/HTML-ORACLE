@@ -1,0 +1,382 @@
+Q. If the checked attribute of checkbox is set, the property that will be true is?
+
+1). checked
+2). selected
+3). defaultChecked
+4). value
+Solution :
+option [3] is correct
+
+Q. To select the contents on text box we can use?
+
+1). onFocus()
+2). onSelect
+3). select()
+4). focus()
+Solution :
+option [3] is correct
+
+Q. Consider the following Regular Expression pattern:
+
+"Director.+[5-9]...$"
+
+Which of the following Strings will it match?
+
+1). Directorbbb4000
+2). Directorb9500
+3). Seniordirectorv7000
+4). Directorttt7000
+Solution :
+option [2,4] are correct
+
+Q. Which of the following statements is true?
+
+1). All XML documents must have a schema
+2). All elements must have  proper closing tags
+3). All elements must be compulsorily  upper case
+4). All the statements are true
+Solution :
+option [2] is correct
+
+Q. A form object can be accessed in which of the following ways?
+
+1). Form name
+2). Forms list
+3). Forms array
+4). Form set
+Solution :
+option [1,3] are correct
+
+Q. Which property of the location object refers to an anchor located in the document?
+
+1). location.host
+2). location.protocol
+3). location.href
+4). location.hash
+Solution :
+option [4] is correct
+
+Q. The property of form object that enables to specify where the output returned by the server 
+should be displayed.
+
+1). action
+2). target
+3). encoding
+4). submit
+Solution :
+option [2] is correct
+
+Q. Which of the following events are common to Text Object and the Select Object?
+
+1). OnChange
+2). OnBlur
+3). OnClick
+4). OnMouseDown
+Solution :
+option [1,2] are correct
+
+Q. Which of the following is not a valid XML element name?
+
+1). <h2>
+2). <Data>
+3). <5Ruppes>
+4). All are invalid
+Solution :
+option [3] is correct
+
+Q. What would be the output of following JavaScript code?
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function getItems()
+{
+ var list=document.getElementById("myList");
+ var index;
+ var msg="My favorite fruits";
+ for (index=0;index<list.length;index++)
+   {
+    msg=msg + "\n" + list.options[index].text;
+   }
+ alert(msg);
+}
+</script>
+</head>
+<body>
+ <form>
+  Select your favorite fruit:
+     <select id="myList">
+   <option>Apple</option>
+   <option>Orange</option>
+   <option>Pineapple</option>
+   <option>Banana</option>
+     </select>
+  <br /><br />
+  <input type="button" onclick="getItems()" value="Output all options">
+ </form>
+</body>
+</html>
+Answer:))The script will display all the items from the dropdown list box in the alert box
+
+
+Q. Which of the following is false about <aside> tag in HTML-5?
+
+1). The <aside> tag is new in HTML5
+2). The <aside> content could be placed as a sidebar in an article
+3). The <aside> tag is  in HTML4
+4). The <aside> tag defines some content aside from the content it is placed in
+Solution :
+option [3] is correct
+
+Q. How can you make a list that lists the items with number?
+
+1). <dl>
+2). <ol>
+3). <list>
+4). <ul>
+Solution :
+option [2] is correct
+
+Q. To create a link to a bookmark (bkname) on a page home.html you can use ________.
+
+1). <a href=#bkname>
+2). <a href="home.html#bkname">
+3). <bookmark href="home.html">#bkname</bookmark>
+4). <a href ="home.html; bookmark=#bkname">
+Solution :
+option [2] is correct
+
+Q. Which of the following will open a page in new window?
+
+1). <a href="register.html" target="_self">Register</a>
+2). <a href="register.html" target="_top">Register</a>
+3). <a href="register.html" target="_blank">Register</a>
+4). <a href="register.html" target="_parent">Register</a>
+Solution :
+option [3] is correct
+
+Q. Which of the following is the correct way, if we want Password to be validated with 
+alphanumeric characters? 
+
+Example: igate123
+
+Answer:))Password<input type="password" name="txtPassword" 
+   pattern="^[0-9a-zA-Z]+$" title=
+     "Only alphanumeric characters are allowed">
+
+Q. How to append CC and BCC mail addresses, in the link of mailto?
+
+1). Using !
+2). Using @
+3). Using ^
+4). Using &
+Solution :
+option [4] is correct
+
+Q. What will be output of the following code?
+
+<h4>Circle bullets list:</h4>
+<ol type="A">
+ <li >Apples</li>
+ 
+<li value="7">Bananas</li>
+ <li>Lemons</li>
+ <li>Oranges</li>
+</ol>
+
+1). It will Display Default type of unordered list
+2). Display sequence A,7,8,9
+3). Display sequence A,B,C,D
+4). Display sequence  A,G,H,I
+Solution :
+option [4] is correct
+
+Q. <!DOCTYPE html>
+<html>
+<title>Welcome</title>
+<body>
+      <img src="D:\Data\SAM_2080.jpg" alt="My India">
+</body>
+</html>
+
+Consider the above code and assume that the file is not found in the given path. 
+What will be the output?
+
+1). Error in the code
+2). The text "My India" is displayed
+3). Neither error nor text is displayed
+4). An error occurs while dispaying the web page
+Solution :
+option [2] is correct
+
+Q. What of the following statement is correct about the  given selector statement?
+Div.p
+
+1). Selects all the div tag and p tags
+2). Selects all the div tag having class "P"
+3). Selects the div tag having id "p"
+4). Selects all the p tags inside div tag
+Solution :
+option [2] is correct
+
+Q. Which of these samples of code will remove the underline from hyperlinks?
+a {
+     text-decoration: none;
+     }
+Q. How to add comment in the style sheet?
+
+1). <!--   comment -->
+2). /*   comment  */
+3). //
+4). you can not give comment in style sheet
+Solution :
+option [2] is correct
+
+Q. Which of the following will correctly select the input tag Element which has the focus?
+
+1). input[name]
+2). input:focus
+3). :focus
+4). input:autofocus
+Solution :
+option [2] is correct
+
+Q. How to select the input tag  element having attribute name to apply the CSS style?
+
+1). input[name]
+2). input name
+3). input{name}
+4). :input[name]
+Solution :
+option [1] is correct
+
+Q. Choose the following attribute which can be used to specify image as background of an element?
+
+1). background-color
+2). background-attachment
+3). background-image
+4). background-audio
+Solution :
+option [1,2,3] are correct
+
+Q. A style format can be applied to the tags by using __________.
+
+1). <format>
+2). <style>
+3). <decoration>
+4). Any of the above can be used
+Solution :
+option [2] is correct
+
+Q. Which of the following HTML5 element is used to display bulleted list ?
+
+1). <ul>
+2). <ol>
+3). <dl>
+4). <dd>
+Solution :
+option [1] is correct
+
+Q. Which of the following will display the text box with a back ground in blue color?
+Answer:))<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+input{background-color:blue;}
+</style>
+<title>Hello</title>
+</head>
+<body>
+ Customer Name: <input type="text" name="name"/>
+</body>
+</html>
+
+
+What will be the output if we run this script at 11 AM?
+      
+<!DOCTYPE html> 
+<html>
+<body>
+<script type="text/javascript">
+ var now = new Date();
+ var time = now.getHours();
+ //document.write(time);
+ document.write("<br />");
+ if ((time < 10) && (time > 12))
+ {
+  document.write("<b>Good Morning!!!</b>");
+ }
+ else if((time < 12) && (time > 16))
+ {
+  document.write("<b>Good Afertnoon!!!</b>");
+ }
+ else
+ {
+  document.write("<b>Good Evening!!!</b>");
+ }
+</script>
+</body>
+</html>
+ Answer:))Good Evening!!!
+
+Q. Which of the following are valid code for creating an array in JavaScript?
+
+1). <script type="text/javascript">
+ var courses=new Array(); 
+ courses[0]="JavaScript";       
+ courses[1]="HTML";
+ courses[2]="XHTML";
+ </script>
+2). <script type="text/javascript">
+ var courses=new Array("JavaScript","HTML","XHTML"); 
+</script>
+3). <script type="text/javascript">
+ var courses=("JavaScript","HTML","XHTML"); 
+ document.write(courses[1]);
+</script>
+4). <script type="text/javascript">
+ var courses=["JavaScript","HTML","XHTML"]; 
+</script>
+5). <script type="text/javascript">
+ var courses=new Array{"JavaScript","HTML","XHTML"}; 
+</script>
+Solution :
+option [1,2,4] are correct
+
+Q. A JavaScript code can be written on?
+
+1). Server Side
+2). Client Side
+3). Middle Tier
+4). Not known
+Solution :
+option [1,2] are correct
+
+Q. Which is the method to convert user input into a float value ?
+
+1). parseString
+2). parseNumber
+3). parseFloat
+4). parseObject
+Solution :
+option [3] is correct
+
+Q. If a function does not have parameters in declaration but when it is called the parameters are passed. 
+The parameters can then be extracted using?
+
+1). Parameters array
+2). Arguments array
+3). Object array
+4). This is not permitted
+Solution :
+option [2] is correct
+
+Q. If no parameters are specified for a Date object explicitly then it is assigned to?
+
+1). Today's Date
+2). First date of the current month
+3). First date of the current year
+4). Null
+Solution :
+option [1] is correct
